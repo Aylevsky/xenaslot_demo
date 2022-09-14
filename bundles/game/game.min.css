@@ -1,0 +1,43 @@
+/*
+  * LINE HEIGHT
+*/
+/*
+  * SIZE
+*/
+.game {
+  background: linear-gradient(61.77deg, #0C1821 0%, #19204D 29.17%, #28152B 53.12%, #47163C 71.35%, #0D131F 100%);
+}
+
+.game iframe {
+  margin-bottom: 100px;
+  max-width: 1160px;
+  height: 652.5px;
+  width: 100%;
+}
+
+@media (max-width: 1240px) {
+  .game iframe {
+    margin-bottom: calc(50px + 50 * (100vw - 360px) / 880);
+  }
+  .game iframe {
+    max-width: calc(320px + 840 * (100vw - 360px) / 880);
+  }
+  .game iframe {
+    height: calc(180px + 472.5 * (100vw - 360px) / 880);
+  }
+}
+.game iframe {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1280px) {
+  .game iframe {
+    margin-top: calc(40px + 60 * (100vw - 360px) / 920);
+  }
+}
+@media (max-width: 1280px) {
+  .game iframe {
+    margin-bottom: calc(107px + -7 * (100vw - 360px) / 920);
+  }
+}
