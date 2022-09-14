@@ -639,7 +639,7 @@ main {
 }
 
 .mob-nav__close {
-  position: fixed;
+  position: absolute;
   top: 32px;
   right: 27px;
 }
