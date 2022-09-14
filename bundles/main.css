@@ -615,7 +615,7 @@ main {
 }
 
 .mob-nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 100%;
@@ -639,7 +639,7 @@ main {
 }
 
 .mob-nav__close {
-  position: absolute;
+  position: fixed;
   top: 32px;
   right: 27px;
 }
@@ -1106,6 +1106,10 @@ main {
   .desk__wrapper img,
   .desk__wrapper picture {
     margin-bottom: 32px;
+  }
+
+  .header {
+    position: fixed;
   }
 
   .header__wrapper {
